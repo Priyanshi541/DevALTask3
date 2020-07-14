@@ -5,8 +5,8 @@ metadata:
 spec:
   selector:
     env: prod
-  ports :
-  - port : 80
+  ports:
+  - port: 80
     nodePort: 30303
     targetPort: 81
   type: NodePort
