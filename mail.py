@@ -1,13 +1,12 @@
-f= open("/mlops/mail.py" ,"r")
-a=f.read()
+
 import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 host_address = "kailapriyanshi541@gmail.com"
 host_pass = "preeti2010"
-guest_address = "kailatanya29@gmail.com"
-subject = "80% Accuracy Acheived "
-content = "We would like to inform you that your model has successfully achieved more than 80% accuracy";
+guest_address = "kailapriyanshi541@gmail.com"
+subject = " Problem with your App "
+content = " We would like to inform you that you App is not running...Please look back to you code to fix the issue";
 message = MIMEMultipart()
 message['From'] = host_address
 message['To'] = guest_address
