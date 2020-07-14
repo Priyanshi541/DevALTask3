@@ -1,3 +1,5 @@
+f= open("/kube/mail.py" ,"r")
+a=f.read()
 
 import smtplib
 from email.mime.multipart import MIMEMultipart
